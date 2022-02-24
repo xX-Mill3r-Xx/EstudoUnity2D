@@ -18,9 +18,9 @@ public class ControllerInput : MonoBehaviour
         float V = Input.GetAxis("Vertical");
         transform.Translate(new Vector3(H * speed * Time.deltaTime, V * speed * Time.deltaTime, 0));
 
-        if (Input.GetButton("Fire1"))
-        {
-            Debug.Log("Fire");
-        }
+        //if (Input.GetButton("Fire1"))
+        //{
+        //    Debug.Log("Fire");
+        //}
     }
 }
